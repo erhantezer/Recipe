@@ -1,0 +1,17 @@
+.main{
+    width: 60%;
+    margin: auto;
+    color: orange;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.image{
+    width: 100%;
+}
+.mail{
+    color:orange;
+    text-decoration: none;
+}
+.mail:hover{
+    color: black;
+}

@@ -1,0 +1,35 @@
+.navbar{
+    vertical-align: baseline;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+
+
+.buttons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    
+}
+
+span{
+    font-family: 'Babylonica', cursive;
+    font-size: 3.2rem;
+}
+span::after{
+    content: '\2667';
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 1, 1);
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+.link:hover{
+    color: rgb(3, 2, 0);
+}
