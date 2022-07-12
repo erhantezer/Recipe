@@ -55,12 +55,10 @@ const [meal, setMeal] = useState("breakfast")
         <Button variant="warning" type='submit' className={styles.select}>
           Search
         </Button>
-        
+
       </Form>
     </Container>
     <Container>
-        
-       
           
         <Row>
             
@@ -71,10 +69,6 @@ const [meal, setMeal] = useState("breakfast")
           ))
         }  
         </Row>
-       
-       
-        
-          
         
       </Container>
     </>
