@@ -1,0 +1,15 @@
+.card{
+    width: 30%;
+    margin: 2rem auto;
+    
+}
+
+.cardImg{
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.title{
+    font-family: cursive;
+    text-transform: uppercase;
+}
