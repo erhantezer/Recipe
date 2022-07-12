@@ -10,10 +10,7 @@ const navigate = useNavigate();
 const handleLogin = (e) =>{
   e.preventDefault();
   navigate("/home")
-
 }
-
-
 
   return (
     <div className={styles.mainlogin}>
