@@ -42,17 +42,20 @@ const [meal, setMeal] = useState("breakfast")
         <Form.Select
         aria-label='Default select example'
         className={styles.select}
-        onSelectChange={(e) => setMeal(e.target.value)}
-        >
+        onSelectChange={(e) => setMeal(e.target.value)}>
+
           <option value="breakfast">Breakfast</option>
           <option value="lunch">Lunch</option>
           <option value="dinner">Dinner</option>
           <option value="snack">Snack</option>
           <option value="teatime">Teatime</option>
+
         </Form.Select>
+
         <Button variant="warning" type='submit' className={styles.select}>
           Search
         </Button>
+        
       </Form>
     </Container>
     <Container>
