@@ -7,9 +7,8 @@ import Login from "../pages/login/Login";
 
 
 
-
-
 const AppRouter = () => {
+
   return (
     <BrowserRouter>
     <Navbar/>
