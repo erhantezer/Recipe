@@ -28,7 +28,7 @@ const handleLogin = (e) =>{
         <Form.Label>Password</Form.Label>
         <Form.Control type='password' placeholder='Enter password' required/>
 
-        <Button variant='warning' type='submit'>Login</Button>
+        <Button variant='warning mt-2' type='submit'>Login</Button>
 
       </Form>
 
