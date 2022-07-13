@@ -16,8 +16,13 @@
     
 }
 .card{
-    margin-bottom: 1rem;
-    
+    margin: 1.5rem;
+    box-shadow: 4px 3px  5px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
 .cardtitle{
@@ -31,4 +36,8 @@
     object-fit: cover;
     text-align: center;
    
+}
+.btn:hover{
+ transform: scale(1.1);
+ 
 }

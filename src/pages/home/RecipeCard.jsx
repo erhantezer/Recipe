@@ -18,7 +18,7 @@ const RecipeCard = ({recipe,index}) => {
     <Card.Img variant="top" src={image} className={styles.cardimg} />
     <Card.Body>
       <Card.Title className={styles.cardtitle}>{label}</Card.Title>
-        <Button variant="warning" onClick={handleClick}>View More</Button>
+        <Button className={styles.btn} variant="warning" onClick={handleClick}>View More</Button>
     </Card.Body>
   </Card>
   )
