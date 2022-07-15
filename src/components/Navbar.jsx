@@ -4,7 +4,6 @@ import styles from "./Navbar.module.css";
 
 
 
-
 const Navbar = () => {
   const navigate =useNavigate();
   return (
