@@ -7,7 +7,6 @@ const Details = () => {
   const { state } = useLocation();
   const navigate = useNavigate()
   const recipe = state;
-  console.log(recipe)
 
 
   return (
