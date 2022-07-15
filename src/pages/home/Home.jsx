@@ -11,6 +11,7 @@ const [recipies, setRecipies] = useState();
 const [query, setQuery] = useState("");
 const [meal, setMeal] = useState("breakfast")
 
+
   const APP_ID ="f6edb9f6"
   const APP_KEY ="4ab957a75da653a00a88eb87864b8139"
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}`;
